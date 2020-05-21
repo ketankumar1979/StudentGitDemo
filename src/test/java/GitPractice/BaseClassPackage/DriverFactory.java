@@ -15,7 +15,8 @@ public class DriverFactory {
     }
 
     public void openBrowser(){
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\chromedriver.exe");
+        //WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.get("https://www.argos.co.uk/");
