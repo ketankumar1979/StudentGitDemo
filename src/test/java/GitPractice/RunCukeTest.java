@@ -10,5 +10,3 @@ import org.junit.runner.RunWith;
 
 public class RunCukeTest {
 }
-
-//ketan patel
