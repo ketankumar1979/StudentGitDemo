@@ -15,3 +15,4 @@ public class RunCukeTest {
 }
 
 //Ketan Patel
+//Added assertion
