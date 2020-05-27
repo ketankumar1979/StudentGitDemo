@@ -19,8 +19,8 @@ public class HomePage extends DriverFactory {
 
 
     public void getHomePageUrl(){
-        String actual = driver.getCurrentUrl();
-        Assert.assertThat(actual, Matchers.equalToIgnoringCase("https://www.argos.co.uk/"));
+      String actual = driver.getCurrentUrl();
+       Assert.assertThat(actual, Matchers.equalToIgnoringCase("https://www.argos.co.uk/"));
     }
 
     public void dosearch(String item){
