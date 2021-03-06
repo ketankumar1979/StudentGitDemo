@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: GitPractice.RunCukeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.749 s - in GitPractice.RunCukeTest

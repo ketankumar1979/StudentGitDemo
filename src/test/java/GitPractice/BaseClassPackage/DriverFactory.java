@@ -49,17 +49,19 @@ public class DriverFactory {
         //System.out.println(driver.getTitle());
         */
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ketan\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
        // WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.get("https://www.argos.co.uk/");
         driver.manage().window().maximize();
+        driver.findElement(By.id("consent_prompt_submit")).click();
+
 
     }
 
     public void closeBrowser(){
-        //driver.quit();
+        driver.quit();
     }
 
 }
