@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
               // "json:target/cucumber-report.json",
               // "pretty:target/cucumber-pretty.txt"})
 
-@CucumberOptions(features = "src/test/Resource/ListOfUser.feature",
+@CucumberOptions(features = "src/test/Resource/HomePage.feature",
         plugin = {"html:target/cucumber-html-report",
          "junit:target/junit-report.xml",
          "json:target/cucumber-report.json",
