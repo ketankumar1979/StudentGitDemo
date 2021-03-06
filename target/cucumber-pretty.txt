@@ -1,0 +1,12 @@
+Feature: Homepage features
+
+  @smoke
+  Scenario: Search for products                              [90m# src/test/Resource/HomePage.feature:4[0m
+    [31mGiven [0m[31muser is on the home page to search for the product[0m [90m# HomePageSteps.userIsOnTheHomePageToSearchForTheProduct()[0m
+      [31mjava.lang.NullPointerException
+      	at GitPractice.PageObjectPackage.HomePage.getHomePageUrl(HomePage.java:22)
+      	at GitPractice.StepDefinitionsPackage.HomePageSteps.userIsOnTheHomePageToSearchForTheProduct(HomePageSteps.java:14)
+      	at ✽.Given user is on the home page to search for the product(src/test/Resource/HomePage.feature:5)
+      [0m
+    [36mWhen [0m[36muser type 'nike' to search for product[0m              [90m# HomePageSteps.userTypeNikeToSearchForProduct()[0m
+    [36mThen [0m[36muser should able to see all the nike products[0m       [90m# HomePageSteps.userShouldAbleToSeeAllTheNikeProducts()[0m

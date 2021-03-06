@@ -9,10 +9,10 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage extends DriverFactory {
 
     @FindBy(id = "searchTerm")
-    private WebElement SearchTextBox;
+     WebElement SearchTextBox;
 
     @FindBy(className = "_2mKaC")
-    private WebElement magnifierGlass;
+     WebElement magnifierGlass;
 
     @FindBy(xpath = "//div[@class='search-title']")
     WebElement resultOfNike;

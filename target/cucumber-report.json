@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search for products",
+        "description": "",
+        "id": "homepage-features;search-for-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2663309500,
+              "error_message": "java.lang.NullPointerException\r\n\tat GitPractice.PageObjectPackage.HomePage.getHomePageUrl(HomePage.java:22)\r\n\tat GitPractice.StepDefinitionsPackage.HomePageSteps.userIsOnTheHomePageToSearchForTheProduct(HomePageSteps.java:14)\r\n\tat ✽.Given user is on the home page to search for the product(src/test/Resource/HomePage.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is on the home page to search for the product",
+            "match": {
+              "location": "HomePageSteps.userIsOnTheHomePageToSearchForTheProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user type \u0027nike\u0027 to search for product",
+            "match": {
+              "location": "HomePageSteps.userTypeNikeToSearchForProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should able to see all the nike products",
+            "match": {
+              "location": "HomePageSteps.userShouldAbleToSeeAllTheNikeProducts()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage features",
+    "description": "",
+    "id": "homepage-features",
+    "keyword": "Feature",
+    "uri": "src/test/Resource/HomePage.feature"
+  }
+]
