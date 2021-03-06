@@ -1,0 +1,8 @@
+GitPractice\PageObjectPackage\GetListOfUsers.class
+GitPractice\StepDefinitionsPackage\HomePageSteps.class
+GitPractice\StepDefinitionsPackage\ResultPageSteps.class
+GitPractice\PageObjectPackage\ResultPage.class
+GitPractice\StepDefinitionsPackage\ListOfUserSteps.class
+GitPractice\RunCukeTest.class
+GitPractice\BaseClassPackage\DriverFactory.class
+GitPractice\PageObjectPackage\HomePage.class
