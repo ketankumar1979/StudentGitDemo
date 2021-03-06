@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2663309500,
-              "error_message": "java.lang.NullPointerException\r\n\tat GitPractice.PageObjectPackage.HomePage.getHomePageUrl(HomePage.java:22)\r\n\tat GitPractice.StepDefinitionsPackage.HomePageSteps.userIsOnTheHomePageToSearchForTheProduct(HomePageSteps.java:14)\r\n\tat ✽.Given user is on the home page to search for the product(src/test/Resource/HomePage.feature:5)\r\n",
-              "status": "failed"
+              "duration": 2048836200,
+              "status": "passed"
             },
             "line": 5,
             "name": "user is on the home page to search for the product",
@@ -25,7 +24,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1203600,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.sendKeys(Unknown Source)\r\n\tat GitPractice.PageObjectPackage.HomePage.dosearch(HomePage.java:27)\r\n\tat GitPractice.StepDefinitionsPackage.HomePageSteps.userTypeNikeToSearchForProduct(HomePageSteps.java:20)\r\n\tat ✽.When user type \u0027nike\u0027 to search for product(src/test/Resource/HomePage.feature:6)\r\n",
+              "status": "failed"
             },
             "line": 6,
             "name": "user type \u0027nike\u0027 to search for product",

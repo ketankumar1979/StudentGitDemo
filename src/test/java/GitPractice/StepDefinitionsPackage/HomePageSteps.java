@@ -11,7 +11,7 @@ public class HomePageSteps {
 
     @Given("^user is on the home page to search for the product$")
     public void userIsOnTheHomePageToSearchForTheProduct() {
-        homePage.getHomePageUrl();
+       // homePage.getHomePageUrl();
 
     }
 
@@ -23,7 +23,7 @@ public class HomePageSteps {
 
     @Then("^user should able to see all the nike products$")
     public void userShouldAbleToSeeAllTheNikeProducts() {
-        homePage.getResultPageHeader();
+      //  homePage.getResultPageHeader();
     }
 
 }

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.663309">
-<testcase classname="Homepage features" name="Search for products" time="2.663309">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at GitPractice.PageObjectPackage.HomePage.getHomePageUrl(HomePage.java:22)&#13;&#10;&#9;at GitPractice.StepDefinitionsPackage.HomePageSteps.userIsOnTheHomePageToSearchForTheProduct(HomePageSteps.java:14)&#13;&#10;&#9;at ✽.Given user is on the home page to search for the product(src/test/Resource/HomePage.feature:5)&#13;&#10;"><![CDATA[Given user is on the home page to search for the product....................failed
-When user type 'nike' to search for product.................................skipped
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.05004">
+<testcase classname="Homepage features" name="Search for products" time="2.05004">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)&#13;&#10;&#9;at GitPractice.PageObjectPackage.HomePage.dosearch(HomePage.java:27)&#13;&#10;&#9;at GitPractice.StepDefinitionsPackage.HomePageSteps.userTypeNikeToSearchForProduct(HomePageSteps.java:20)&#13;&#10;&#9;at ✽.When user type 'nike' to search for product(src/test/Resource/HomePage.feature:6)&#13;&#10;"><![CDATA[Given user is on the home page to search for the product....................passed
+When user type 'nike' to search for product.................................failed
 Then user should able to see all the nike products..........................skipped
 
 StackTrace:
 java.lang.NullPointerException
-	at GitPractice.PageObjectPackage.HomePage.getHomePageUrl(HomePage.java:22)
-	at GitPractice.StepDefinitionsPackage.HomePageSteps.userIsOnTheHomePageToSearchForTheProduct(HomePageSteps.java:14)
-	at ✽.Given user is on the home page to search for the product(src/test/Resource/HomePage.feature:5)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at GitPractice.PageObjectPackage.HomePage.dosearch(HomePage.java:27)
+	at GitPractice.StepDefinitionsPackage.HomePageSteps.userTypeNikeToSearchForProduct(HomePageSteps.java:20)
+	at ✽.When user type 'nike' to search for product(src/test/Resource/HomePage.feature:6)
 ]]></failure>
 </testcase>
 </testsuite>

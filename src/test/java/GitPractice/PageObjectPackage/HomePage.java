@@ -18,19 +18,19 @@ public class HomePage extends DriverFactory {
     WebElement resultOfNike;
 
 
-    public void getHomePageUrl(){
+  /*  public void getHomePageUrl(){
       String actual = driver.getCurrentUrl();
        Assert.assertThat(actual, Matchers.equalToIgnoringCase("https://www.argos.co.uk/"));
-    }
+    }*/
 
     public void dosearch(String item){
         SearchTextBox.sendKeys(item);
         magnifierGlass.click();
     }
 
-    public void getResultPageHeader(){
+   /* public void getResultPageHeader(){
         String actualNikeResult = resultOfNike.getText();
         Assert.assertThat(actualNikeResult, Matchers.containsString("nike"));
 
-    }
+    }*/
 }

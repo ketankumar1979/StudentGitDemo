@@ -50,6 +50,7 @@ public class DriverFactory {
         */
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ketan\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+
        // WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
